@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>contact</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <form name="contact" method="POST" data-netlify="true">
+    <header class="contactheader">
+      <h1> Heb je een vraag?</h1>
+      <h1>Een opmerking?</h1> 
+      <h1>Wil je lid worden van de fanclub?</h1>
+      <p>laat hier je commentaar achter</p>
+    </header>
+    <div class="invoerveld">
+      <label for="name">naam</label>
+      <input class="block" type="text" name="name" id="name" value="" />
+    </div>
+    <div class="invoerveld">
+      <label for="email">email address</label>
+      <input class="block" type="email" name="email" id="email" value="" />
+    </div>
+    <div class="invoerveld">
+      <label for="tel">telefoon</label>
+      <input class="block" type="tel" name="tel" id="tel" value="" />
+    </div>
+    <div class="invoerveld">
+      <label for="age">age</label>
+      <input class="block" type="number" name="age" id="age" value="" />
+    </div>
+    <div class="invoerveld">
+      <label for="birthdate">geboortedatum</label>
+      <input class="block" type="date" name="birthdate" id="birthdate" value="" />
+    </div>
+    <div class="invoerveld">
+      <label class="block">geslacht</label>
+      <label><input type="radio" name="gender" value="male" />male</label>
+      <label><input type="radio" name="gender" value="female" />female</label>
+      <label><input type="radio" name="gender" value="other" />other</label>
+    </div>
+    <div class="invoerveld">
+      <label class="block">favourite koe</label>
+      <label><input type="checkbox" name="zwartwit" value="zw" />Zwartwitte koe</label><br>
+      <label><input type="checkbox" name="roodbont" value="rb" />Roodbonte koe</label><br>
+      <label><input type="checkbox" name="zeekoe" value="zk" />Zeekoe</label><br>
+    </div>
+    <div class="invoerveld">
+      <label for="textarea">jouw commentaar:</label>
+      <textarea class="block" name="tekstveld" id="textarea" cols="30" rows="10"></textarea>
+    </div>
+    <div class="invoerveld">
+      <label for="recipe">upload een plaatje van je favoriete koe</label>
+      <input class="block" type="file" name="recipe" id="recipe" value="" />
+    </div>
+    <div class="buttons">
+      <input type="reset" value="reset">
+      <input type="submit" value="verzenden">
+    </div>
+  </form>
+
+  <a href="index.html"><button>home</button></a>
+
+</body>
+
+</html>
